@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dina Salah Aldin Saber - Curriculum Vitae</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-dark: #172554;
+      --accent: #2563eb;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --border: #e2e8f0;
+      --tag-bg: #eff6ff;
+      --tag-text: #1d4ed8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 30px 15px;
+    }
+
+    .no-print-toolbar {
+      max-width: 850px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: white;
+      padding: 12px 24px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--border);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: #1d4ed8;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-main);
+      border: 1px solid var(--border);
+    }
+
+    .btn-outline:hover {
+      background: #f1f5f9;
+    }
+
+    .cv-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 50px 60px;
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      border: 1px solid var(--border);
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+
+    .name {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-bottom: 12px;
+    }
+
+    .contact-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .contact-item a {
+      color: var(--text-main);
+      text-decoration: none;
+    }
+
+    .contact-item a:hover {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    .section-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      text-align: center;
+      color: var(--text-main);
+      margin-bottom: 14px;
+      position: relative;
+    }
+
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: var(--accent);
+      margin: 6px auto 0;
+    }
+
+    .summary-text {
+      font-size: 13.5px;
+      color: #334155;
+      text-align: justify;
+      line-height: 1.6;
+    }
+
+    .timeline-item {
+      margin-bottom: 18px;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3px;
+    }
+
+    .item-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .item-date {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      font-style: italic;
+      font-weight: 500;
+    }
+
+    .item-subtitle {
+      font-size: 13.5px;
+      color: var(--primary-dark);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .item-subtitle span {
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .bullets {
+      list-style-type: disc;
+      padding-left: 20px;
+      font-size: 13px;
+      color: #334155;
+    }
+
+    .bullets li {
+      margin-bottom: 4px;
+      line-height: 1.5;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .skill-card {
+      background: #f8fafc;
+      padding: 10px 14px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .skill-category {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 5px;
+    }
+
+    .skill-desc {
+      font-size: 12.5px;
+      color: #475569;
+      line-height: 1.4;
+    }
+
+    .tags-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 5px;
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .icpc-box {
+      border: 1px dashed #cbd5e1;
+      border-radius: 6px;
+      padding: 10px 14px;
+      background: #fafafa;
+    }
+
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .no-print-toolbar {
+        display: none;
+      }
+      .cv-container {
+        max-width: 100%;
+        padding: 20px 25px;
+        box-shadow: none;
+        border: none;
+      }
+      @page {
+        margin: 12mm 10mm;
+      }
+      a {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="no-print-toolbar">
+    <div>
+      <a href="index.html" class="btn btn-outline"><i class="fa-solid fa-arrow-left"></i> Back to Portfolio</a>
+    </div>
+    <div style="display: flex; gap: 10px;">
+      <button onclick="window.print()" class="btn btn-primary"><i class="fa-solid fa-print"></i> Print / Save as PDF</button>
+    </div>
+  </div>
+
+  <div class="cv-container">
+    <header>
+      <h1 class="name">Dina Salah Aldin Saber</h1>
+      <div class="subtitle">Junior Full Stack .NET Developer</div>
+      <div class="contact-bar">
+        <span class="contact-item"><i class="fa-regular fa-envelope"></i> <a href="mailto:dinasalah15122005@gmail.com">dinasalah15122005@gmail.com</a></span>
+        <span class="contact-item"><i class="fa-solid fa-phone"></i> 01090006735</span>
+        <span class="contact-item"><i class="fa-solid fa-location-dot"></i> Assiut, Egypt</span>
+        <span class="contact-item"><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/dina-salah-aldin" target="_blank">linkedin.com/in/dina-salah-aldin</a></span>
+        <span class="contact-item"><i class="fa-brands fa-github"></i> <a href="https://github.com/dinasalah15122005" target="_blank">github.com/dinasalah15122005</a></span>
+      </div>
+    </header>
+
+    <section>
+      <div class="section-title">Professional Summary</div>
+      <p class="summary-text">
+        Junior Full Stack .NET Developer and Computer Science student with a strong foundation in C#, ASP.NET Core, SQL Server, and Entity Framework Core. Currently studying Information Systems at Assiut University with an outstanding GPA of <strong>3.89 / 4.00</strong> (Excellent Standing). Passionate about Backend Development, Relational Database Design, and solving complex algorithmic challenges. Proven track record leading multidisciplinary teams to design and build scalable, user-centric web applications and managing databases from conceptual ERD modeling to production queries.
+      </p>
+    </section>
+
+    <section>
+      <div class="section-title">Work &amp; Training Experience</div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <span class="item-title">Full Stack .NET Developer Trainee</span>
+          <span class="item-date">Jul 2026 – Dec 2026</span>
+        </div>
+        <div class="item-subtitle">DEPI (Digital Egypt Pioneers Initiative) <span>— Asyut, Egypt</span></div>
+        <ul class="bullets">
+          <li>Developed 3+ web-based projects utilizing C#, ASP.NET Core MVC, SQL Server, and Entity Framework Core.</li>
+          <li>Architected and built <strong>Pharos Legacy</strong>, a full-stack heritage &amp; tourism booking web application.</li>
+          <li>Engineered <strong>Stay Ease</strong>, a comprehensive Hotel Management &amp; multi-channel payment simulation system.</li>
+          <li>Researched and conceptualized a secure <strong>Facial Recognition Contactless Payment System</strong>.</li>
+          <li>Designed and integrated normalized relational databases (1:1, 1:N, N:M) to support diverse business applications.</li>
+          <li>Implemented RESTful APIs, exception handling middleware, and practiced Agile methodologies in team sprints.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <span class="item-title">Backend Developer</span>
+          <span class="item-date">Sep 2025 – Jan 2026</span>
+        </div>
+        <div class="item-subtitle">ITI (Information Technology Institute) <span>— Asyut, Egypt</span></div>
+        <ul class="bullets">
+          <li>Focused on backend engineering with C#, ASP.NET Core, LINQ, and SQL Server database management.</li>
+          <li>Engineered relational data models, wrote optimized stored procedures, triggers, views, and complex joins.</li>
+          <li>Integrated Entity Framework Core migrations, authentication workflows, and role-based access control.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Education</div>
+      <div class="timeline-item">
+        <div class="item-header">
+          <span class="item-title">Bachelor’s Degree in Information Systems (IS)</span>
+          <span class="item-date">Oct 2023 – Expected Jul 2027</span>
+        </div>
+        <div class="item-subtitle">Faculty of Computer and Information Science, Assiut University <span>— Asyut, Egypt</span></div>
+        <ul class="bullets">
+          <li><strong>Current Standing:</strong> 4th Year, 1st Semester &bull; <strong>GPA: 3.89 / 4.00 (Excellent)</strong>.</li>
+          <li>Studying software engineering, database administration, web architecture, algorithms, and OOP.</li>
+          <li>Practical application of C#, ASP.NET Core, SQL Server, EF Core, HTML, CSS, and JavaScript in university projects.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title">Featured Projects</div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <span class="item-title">Pharos Legacy &bull; Egyptian Tourism &amp; Heritage Platform</span>
+          <span class="item-date">ASP.NET Core MVC | C# | SQL Server | EF Core</span>
+        </div>
+        <div class="item-subtitle">Team Leader &amp; Backend Developer</div>
+        <ul class="bullets">
+          <li>Engineered an Egyptian heritage web application allowing tourists to explore monuments, pharaohs, and book tickets.</li>
+          <li>Designed ERD and implemented database relationships, ticket booking transactions, cancellations, and favorites list.</li>
+          <li>Built User &amp; Admin Dashboards with analytics (visitor counts, revenue tracking) and full CRUD management.</li>
+          <li>Led team coordination, sprint task distribution, code review integration, and project presentation delivery.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <span class="item-title">Stay Ease &bull; Hotel Management &amp; Reservation System</span>
+          <span class="item-date">ASP.NET Core MVC | C# | SQL Server | EF Core</span>
+        </div>
+        <div class="item-subtitle">Team Leader &amp; Backend/Database Developer</div>
+        <ul class="bullets">
+          <li>Developed hotel search and multi-criteria filtering engine (by city, pricing bracket, and star ratings).</li>
+          <li>Implemented room availability calendar, booking workflows, reviews/ratings, and user profile management.</li>
+          <li>Architected simulated multi-channel checkout: PayPal, InstaPay, VCash, and cash payment options.</li>
+          <li>Designed normalized relational database schema (Hotels, Rooms, Bookings, Guests, Payments, Reviews).</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item">
+        <div class="item-header">
+          <span class="item-title">Zucchini Store &bull; Retail &amp; Stock Inventory System</span>
+          <span class="item-date">Microsoft Access | Relational SQL | UI Design</span>
+        </div>
+        <div class="item-subtitle">Team Leader &amp; Database Developer</div>
+        <ul class="bullets">
+          <li>Designed complete store management system for apparel (Women, Men, Children) with automated restock alerts.</li>
+          <li>Created relational schema, product catalogs, supplier tracking, inventory queries, and management interfaces.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="two-col">
+      <section>
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid" style="grid-template-columns: 1fr;">
+          <div class="skill-card">
+            <div class="skill-category">Backend &amp; Web Development</div>
+            <div class="tags-container">
+              <span class="tag">C#</span>
+              <span class="tag">ASP.NET Core MVC</span>
+              <span class="tag">Entity Framework Core</span>
+              <span class="tag">OOP</span>
+              <span class="tag">RESTful APIs</span>
+              <span class="tag">Authentication &amp; Auth</span>
+              <span class="tag">CRUD</span>
+              <span class="tag">Validation</span>
+              <span class="tag">Exception Handling</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-category">Database Design (Core Specialty)</div>
+            <div class="tags-container">
+              <span class="tag">SQL Server</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">MS Access</span>
+              <span class="tag">ERD Design</span>
+              <span class="tag">Normalization (1NF-3NF)</span>
+              <span class="tag">Stored Procedures</span>
+              <span class="tag">Views</span>
+              <span class="tag">Triggers</span>
+              <span class="tag">Complex Joins</span>
+              <span class="tag">Subqueries</span>
+              <span class="tag">GROUP BY / HAVING</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-category">Frontend &amp; Development Tools</div>
+            <div class="tags-container">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Responsive Design</span>
+              <span class="tag">Visual Studio</span>
+              <span class="tag">SSMS</span>
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">Achievements &amp; Leadership</div>
+        <div class="timeline-item icpc-box">
+          <div class="item-header">
+            <span class="item-title"><i class="fa-solid fa-trophy" style="color: #eab308;"></i> ICPC / ECPC 2026 Contestant</span>
+            <span class="item-date">Qualified</span>
+          </div>
+          <div class="item-subtitle">Team: Forced &bull; <strong>131st Place</strong> &bull; Official Certificate Available</div>
+          <p style="font-size: 12px; color: #475569;">Egyptian Collegiate Programming Contest qualification round (Day 8 &bull; 20 Aug 2026).</p>
+        </div>
+
+        <div class="timeline-item icpc-box" style="margin-top: 10px;">
+          <div class="item-header">
+            <span class="item-title"><i class="fa-solid fa-trophy" style="color: #eab308;"></i> ICPC / ECPC 2025 Contestant</span>
+            <span class="item-date">Qualified</span>
+          </div>
+          <div class="item-subtitle">Team: Prime Coders &bull; <strong>112th Place</strong> &bull; Official Certificate Available</div>
+          <p style="font-size: 12px; color: #475569;">Competitive algorithmic problem solving, graph theory, data structures (Day 8 &bull; 07 Aug 2025).</p>
+        </div>
+
+        <div style="margin-top: 14px;">
+          <div class="skill-category" style="font-size: 13px; font-weight: 700; margin-bottom: 6px;">Soft Skills &amp; Leadership</div>
+          <p style="font-size: 12.5px; color: #334155; line-height: 1.5;">
+            Team Leadership &bull; Problem Solving &bull; Critical Thinking &bull; Agile Scrum &bull; Fast Learning &bull; Cross-Functional Communication &bull; Working Under Pressure.
+          </p>
+        </div>
+
+        <div style="margin-top: 14px;">
+          <div class="skill-category" style="font-size: 13px; font-weight: 700; margin-bottom: 6px;">Languages</div>
+          <p style="font-size: 12.5px; color: #334155; line-height: 1.5;">
+            <strong>Arabic:</strong> Native &bull; <strong>English:</strong> Upper-Intermediate &bull; <strong>Turkish:</strong> Beginner
+          </p>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+</body>
+</html>

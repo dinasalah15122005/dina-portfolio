@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="storeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#14213d"/>
+      <stop offset="100%" stop-color="#0b101e"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#storeBg)"/>
+
+  <!-- Top bar -->
+  <rect x="30" y="20" width="740" height="50" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(139,92,246,0.3)" stroke-width="1"/>
+  <text x="50" y="51" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">&#x1F6CD;&#xFE0F; ZUCCHINI STORE</text>
+  <text x="210" y="50" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">Retail &amp; Inventory Management System</text>
+  
+  <rect x="520" y="30" width="100" height="30" rx="6" fill="#1e293b"/>
+  <text x="535" y="49" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">&#x1F4C2; MS Access DB</text>
+
+  <rect x="630" y="30" width="125" height="30" rx="6" fill="url(#purpleGrad)"/>
+  <text x="645" y="49" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">+ Add New Product</text>
+
+  <!-- Category Filter Pills -->
+  <rect x="30" y="85" width="110" height="32" rx="16" fill="url(#purpleGrad)"/>
+  <text x="55" y="105" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x1F457; Women</text>
+  
+  <rect x="150" y="85" width="100" height="32" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="175" y="105" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">&#x1F455; Men</text>
+
+  <rect x="260" y="85" width="110" height="32" rx="16" fill="rgba(255,255,255,0.08)"/>
+  <text x="285" y="105" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">&#x1F47C; Children</text>
+
+  <!-- Left: Inventory Data Table -->
+  <rect x="30" y="130" width="460" height="290" rx="12" fill="rgba(15,23,42,0.85)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="45" y="158" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Product Stock &amp; Restock Monitor</text>
+  
+  <!-- Table Header -->
+  <rect x="45" y="172" width="430" height="28" fill="#1e293b"/>
+  <text x="55" y="190" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">ID</text>
+  <text x="90" y="190" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Product Name</text>
+  <text x="230" y="190" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Category</text>
+  <text x="310" y="190" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Price</text>
+  <text x="380" y="190" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">Status</text>
+
+  <!-- Row 1 -->
+  <line x1="45" y1="230" x2="475" y2="230" stroke="rgba(255,255,255,0.06)"/>
+  <text x="55" y="220" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">#101</text>
+  <text x="90" y="220" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Floral Summer Dress</text>
+  <text x="230" y="220" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="11">Women</text>
+  <text x="310" y="220" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">450 EGP</text>
+  <rect x="380" y="206" width="75" height="20" rx="10" fill="rgba(16,185,129,0.15)"/>
+  <text x="390" y="220" fill="#10b981" font-family="system-ui, sans-serif" font-size="10">In Stock (48)</text>
+
+  <!-- Row 2 -->
+  <line x1="45" y1="265" x2="475" y2="265" stroke="rgba(255,255,255,0.06)"/>
+  <text x="55" y="255" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">#102</text>
+  <text x="90" y="255" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Cotton Casual Shirt</text>
+  <text x="230" y="255" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="11">Men</text>
+  <text x="310" y="255" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">380 EGP</text>
+  <rect x="380" y="241" width="85" height="20" rx="10" fill="rgba(245,158,11,0.15)"/>
+  <text x="390" y="255" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="10">Low Stock (4)</text>
+
+  <!-- Row 3 -->
+  <line x1="45" y1="300" x2="475" y2="300" stroke="rgba(255,255,255,0.06)"/>
+  <text x="55" y="290" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">#103</text>
+  <text x="90" y="290" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="11">Kids Denim Overall</text>
+  <text x="230" y="290" fill="#f43f5e" font-family="system-ui, sans-serif" font-size="11">Children</text>
+  <text x="310" y="290" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">290 EGP</text>
+  <rect x="380" y="276" width="75" height="20" rx="10" fill="rgba(16,185,129,0.15)"/>
+  <text x="390" y="290" fill="#10b981" font-family="system-ui, sans-serif" font-size="10">In Stock (22)</text>
+
+  <!-- Restock banner -->
+  <rect x="45" y="335" width="430" height="65" rx="8" fill="#1e293b" stroke="rgba(245,158,11,0.3)"/>
+  <text x="60" y="358" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x26A0;&#xFE0F; Automated Restock Alert Triggered</text>
+  <text x="60" y="380" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Item #102 triggered threshold &#x2264; 5. Purchase Order #PO-882 created.</text>
+
+  <!-- Right: Architecture & Database Design -->
+  <rect x="510" y="130" width="260" height="290" rx="12" fill="rgba(15,23,42,0.85)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="530" y="158" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Database &amp; UI Architecture</text>
+  <line x1="530" y1="170" x2="750" y2="170" stroke="rgba(255,255,255,0.1)"/>
+  
+  <text x="530" y="195" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x2022; Relational Schema Design</text>
+  <text x="545" y="213" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Products, Categories, Suppliers,</text>
+  <text x="545" y="228" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Orders &amp; Stock Movements</text>
+
+  <text x="530" y="255" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x2022; Inventory Logic &amp; Queries</text>
+  <text x="545" y="273" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Restocking thresholds, sales ledger</text>
+
+  <rect x="525" y="295" width="230" height="105" rx="8" fill="rgba(139,92,246,0.1)" stroke="#8b5cf6" stroke-width="0.8"/>
+  <text x="538" y="320" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x2605; Dina's Leadership Role</text>
+  <text x="538" y="340" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Designed the database architecture,</text>
+  <text x="538" y="358" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">implemented management UI, led</text>
+  <text x="538" y="376" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">team execution &amp; final presentation.</text>
+</svg>

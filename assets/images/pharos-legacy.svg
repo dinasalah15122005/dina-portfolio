@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pharosBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1122"/>
+      <stop offset="50%" stop-color="#111e38"/>
+      <stop offset="100%" stop-color="#080c16"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <filter id="pharosGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#pharosBg)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="50" x2="800" y2="50" />
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="150" x2="800" y2="150" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="250" x2="800" y2="250" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="350" x2="800" y2="350" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+    <line x1="100" y1="0" x2="100" y2="450" />
+    <line x1="200" y1="0" x2="200" y2="450" />
+    <line x1="300" y1="0" x2="300" y2="450" />
+    <line x1="400" y1="0" x2="400" y2="450" />
+    <line x1="500" y1="0" x2="500" y2="450" />
+    <line x1="600" y1="0" x2="600" y2="450" />
+    <line x1="700" y1="0" x2="700" y2="450" />
+  </g>
+
+  <!-- Navigation bar mockup -->
+  <rect x="30" y="20" width="740" height="45" rx="10" fill="rgba(255,255,255,0.05)" stroke="rgba(251,191,36,0.2)" stroke-width="1"/>
+  <circle cx="55" cy="42" r="5" fill="#ef4444"/>
+  <circle cx="72" cy="42" r="5" fill="#f59e0b"/>
+  <circle cx="89" cy="42" r="5" fill="#10b981"/>
+  <text x="115" y="47" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">PHAROS LEGACY</text>
+  <text x="260" y="47" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Temples</text>
+  <text x="340" y="47" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Museums</text>
+  <text x="425" y="47" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Pharaohs &amp; Gods</text>
+  <text x="550" y="47" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Timeline</text>
+  <rect x="650" y="28" width="105" height="28" rx="6" fill="url(#goldGrad)"/>
+  <text x="668" y="46" fill="#0f172a" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">My Bookings</text>
+
+  <!-- Left Main Card: Temple Exploration -->
+  <rect x="30" y="85" width="440" height="335" rx="14" fill="rgba(15,23,42,0.75)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  
+  <!-- Temple Banner Area -->
+  <rect x="45" y="100" width="410" height="135" rx="10" fill="#1e293b"/>
+  <!-- Stylized Pyramid & Sun Graphic -->
+  <polygon points="250,115 170,215 330,215" fill="rgba(251,191,36,0.3)" stroke="#fbbf24" stroke-width="2"/>
+  <polygon points="250,115 210,215 330,215" fill="rgba(251,191,36,0.5)"/>
+  <polygon points="170,140 110,215 230,215" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="350" cy="135" r="20" fill="url(#goldGrad)" opacity="0.9" filter="url(#pharosGlow)"/>
+  <text x="60" y="215" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Karnak &amp; Luxor Temple Complex</text>
+
+  <!-- Details below banner -->
+  <text x="45" y="260" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">LUXOR, EGYPT • 18TH DYNASTY</text>
+  <text x="45" y="282" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="12">Explore the grand hypostyle hall with 134 massive sandstone columns.</text>
+  
+  <!-- Features tags -->
+  <rect x="45" y="300" width="85" height="24" rx="12" fill="rgba(56,189,248,0.15)" stroke="#38bdf8" stroke-width="0.8"/>
+  <text x="55" y="316" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11">Ramses II</text>
+  
+  <rect x="138" y="300" width="95" height="24" rx="12" fill="rgba(251,191,36,0.15)" stroke="#fbbf24" stroke-width="0.8"/>
+  <text x="148" y="316" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11">Add Favorite</text>
+  
+  <rect x="240" y="300" width="95" height="24" rx="12" fill="rgba(16,185,129,0.15)" stroke="#10b981" stroke-width="0.8"/>
+  <text x="250" y="316" fill="#10b981" font-family="system-ui, sans-serif" font-size="11">Rating 4.9</text>
+
+  <!-- Quick Booking Footer inside card -->
+  <rect x="45" y="345" width="410" height="58" rx="8" fill="rgba(30,41,59,0.6)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="60" y="370" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Adult Ticket</text>
+  <text x="60" y="390" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">250 EGP</text>
+  <text x="165" y="370" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Student Discount</text>
+  <text x="165" y="390" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">125 EGP</text>
+  <rect x="310" y="357" width="130" height="34" rx="6" fill="url(#goldGrad)"/>
+  <text x="330" y="378" fill="#0f172a" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Book Ticket Now</text>
+
+  <!-- Right Side: Architecture & Admin Telemetry -->
+  <rect x="490" y="85" width="280" height="160" rx="14" fill="rgba(15,23,42,0.75)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="510" y="115" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Admin Dashboard Analytics</text>
+  <line x1="510" y1="128" x2="750" y2="128" stroke="rgba(255,255,255,0.1)"/>
+  
+  <rect x="510" y="140" width="115" height="45" rx="6" fill="rgba(30,41,59,0.7)"/>
+  <text x="520" y="156" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Total Bookings</text>
+  <text x="520" y="176" fill="#10b981" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">1,842</text>
+  
+  <rect x="635" y="140" width="115" height="45" rx="6" fill="rgba(30,41,59,0.7)"/>
+  <text x="645" y="156" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="10">Tourism Revenue</text>
+  <text x="645" y="176" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">460,500 EGP</text>
+  
+  <text x="510" y="210" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Registered Tourists:</text>
+  <text x="640" y="210" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">3,420 Active</text>
+  <rect x="510" y="222" width="240" height="6" rx="3" fill="#334155"/>
+  <rect x="510" y="222" width="170" height="6" rx="3" fill="url(#cyanGrad)"/>
+
+  <!-- Right Bottom: Tech & Architecture Blueprint -->
+  <rect x="490" y="260" width="280" height="160" rx="14" fill="rgba(15,23,42,0.75)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <text x="510" y="287" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Backend Architecture</text>
+  <line x1="510" y1="298" x2="750" y2="298" stroke="rgba(255,255,255,0.1)"/>
+  
+  <text x="510" y="322" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">&#x2022; ASP.NET Core MVC (Controllers &amp; Models)</text>
+  <text x="510" y="342" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">&#x2022; SQL Server Relational Database &amp; ERD</text>
+  <text x="510" y="362" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">&#x2022; EF Core Code-First &amp; Migrations</text>
+  <text x="510" y="382" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">&#x2022; Role-Based Auth (Admin vs Tourist)</text>
+  <text x="510" y="405" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">&#x2605; Dina's Role: Team Leader &amp; Backend Dev</text>
+</svg>
