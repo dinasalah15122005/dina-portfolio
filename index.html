@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Dina Salah Aldin Saber - Full Stack .NET Developer, Information Systems at Assiut University (GPA 3.89/4.00), Backend & Database Specialist, and 2x ICPC Contestant.">
+  <meta name="keywords" content="Dina Salah Aldin Saber, Full Stack .NET Developer, ASP.NET Core MVC, C#, SQL Server, Database Design, ERD, ICPC, Assiut University">
+  <meta name="author" content="Dina Salah Aldin Saber">
+  <title>Dina Salah Aldin Saber | Full Stack .NET Developer &amp; Database Specialist</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       Header & Navigation Bar
+       ======================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Dina Salah Homepage">
+        <span class="brand-badge">&lt;/&gt;</span>
+        <span>Dina<span style="color: var(--primary);">.dev</span></span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#database-lab" class="nav-link">Database Lab</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#icpc" class="nav-link">ICPC &amp; Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Utility Actions (Theme toggle + Resume + Mobile burger) -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" title="Toggle Light/Dark Theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-sun" id="theme-icon"></i>
+        </button>
+
+        <a href="cv.html" target="_blank" class="btn btn-outline btn-sm">
+          <i class="fa-solid fa-file-invoice"></i> View CV
+        </a>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       Hero Section
+       ======================================================== -->
+  <section class="hero" id="home">
+    <div class="hero-glow-bg"></div>
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left: Intro & Bio -->
+        <div class="hero-content">
+          <div>
+            <span class="status-pill">
+              <span class="pulse-dot"></span>
+              Open to Opportunities • Full Stack .NET Developer
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight-text">Dina Salah</span><br>
+            Aldin Saber
+          </h1>
+
+          <div class="typing-container">
+            <span id="typing-text"></span><span class="cursor">|</span>
+          </div>
+
+          <p class="hero-bio">
+            Studying Information Systems at <strong>Assiut University</strong> with a <strong>3.89 / 4.00 GPA</strong>. Specialized in <strong>ASP.NET Core MVC</strong>, C#, and high-performance <strong>Database Design</strong>. I design clean architectures, normalize complex schemas, and turn business ideas into robust, production-grade applications.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-laptop-code"></i> Explore Projects
+            </a>
+            <a href="#database-lab" class="btn btn-outline">
+              <i class="fa-solid fa-database"></i> Database Architecture
+            </a>
+            <a href="cv.html" target="_blank" class="btn btn-accent">
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <a href="https://linkedin.com/in/dina-salah-aldin" target="_blank" class="social-icon" title="LinkedIn Profile" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/dinasalah15122005" target="_blank" class="social-icon" title="GitHub Profile" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:dinasalah15122005@gmail.com" class="social-icon" title="Send Email" aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.upwork.com/freelancers/~01e3f9d423b314b81b" target="_blank" class="social-icon" title="Upwork Profile" aria-label="Upwork">
+              <i class="fa-brands fa-upwork" style="font-weight: bold;">Up</i>
+            </a>
+            <a href="https://khamsat.com/user/dina_salah_aldin" target="_blank" class="social-icon" title="Khamsat Profile" aria-label="Khamsat">
+              <i class="fa-solid fa-briefcase"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Avatar & Floating Badges -->
+        <div class="hero-visual-card">
+          <div class="avatar-wrapper">
+            <img src="assets/images/dina-avatar.jpg" alt="Dina Salah Aldin Saber at ICPC / ACPC" class="avatar-img">
+            
+            <!-- Floating Badge Top Left -->
+            <div class="floating-badge badge-top-left">
+              <div class="badge-icon icon-blue">
+                <i class="fa-solid fa-server"></i>
+              </div>
+              <div>
+                <div class="badge-text-title">ASP.NET Core MVC</div>
+                <div class="badge-text-sub">C# • EF Core • APIs</div>
+              </div>
+            </div>
+
+            <!-- Floating Badge Bottom Right -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon icon-gold">
+                <i class="fa-solid fa-diagram-project"></i>
+              </div>
+              <div>
+                <div class="badge-text-title">Database Design</div>
+                <div class="badge-text-sub">SQL Server • ERD • 3NF</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="metrics-strip">
+        <div class="metric-item">
+          <div class="metric-icon-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <div class="metric-val">3.89 / 4.00</div>
+            <div class="metric-label">GPA (Excellent Standing)</div>
+          </div>
+        </div>
+
+        <div class="metric-item">
+          <div class="metric-icon-box">
+            <i class="fa-solid fa-code-fork"></i>
+          </div>
+          <div>
+            <div class="metric-val">4+ Projects</div>
+            <div class="metric-label">Delivered as Team Leader</div>
+          </div>
+        </div>
+
+        <div class="metric-item">
+          <div class="metric-icon-box">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div>
+            <div class="metric-val">2x ICPC</div>
+            <div class="metric-label">Qualification Finalist</div>
+          </div>
+        </div>
+
+        <div class="metric-item">
+          <div class="metric-icon-box">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <div>
+            <div class="metric-val">DEPI &amp; ITI</div>
+            <div class="metric-label">Intensive .NET Trainee</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       About Me Section
+       ======================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Get To Know Me</span>
+        <h2 class="section-title">Driven by Code, Passionate About Architecture</h2>
+        <p class="section-desc">
+          From writing my first line of HTML in high school to architecting enterprise MVC solutions and competing in ICPC.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Photo Card -->
+        <div class="about-photo-card">
+          <img src="assets/images/dina-portrait.jpg" alt="Dina Salah Aldin Saber at ACPC Egyptian Collegiate Programming Contest" class="about-photo">
+          <div class="about-photo-overlay">
+            <div class="overlay-title">Dina Salah Aldin Saber</div>
+            <div class="overlay-subtitle">ECPC Contestant &bull; Assiut University Information Systems</div>
+          </div>
+        </div>
+
+        <!-- Text Content -->
+        <div class="about-text-content">
+          <div class="about-paragraphs">
+            <p>
+              I am a <strong>Full Stack .NET Developer</strong> majoring in <strong>Information Systems</strong> at Assiut University (Class of 2027), holding a <strong>3.89 / 4.00 GPA</strong> with Excellent academic standing.
+            </p>
+            <p>
+              My coding journey started in high school when I learned HTML and discovered how thrilling it is to build things from scratch. I gradually progressed into backend development, algorithms, object-oriented programming, and relational database systems.
+            </p>
+            <p>
+              I enjoy programming because it is intellectually challenging. There is nothing more rewarding than taking an abstract problem, designing a normalized database schema, engineering clean controllers with ASP.NET Core MVC, and deploying a functional application.
+            </p>
+          </div>
+
+          <!-- Feature Points -->
+          <div class="about-features-grid">
+            <div class="feature-point">
+              <i class="fa-solid fa-users-gear"></i>
+              <div>
+                <div class="feature-point-title">Proven Team Leader</div>
+                <div class="feature-point-desc">Led multiple university projects, coordinating Git merges, sprint tasks, and final presentations.</div>
+              </div>
+            </div>
+
+            <div class="feature-point">
+              <i class="fa-solid fa-brain"></i>
+              <div>
+                <div class="feature-point-title">Strong Problem Solver</div>
+                <div class="feature-point-desc">2-time ICPC / ECPC qualification contestant, trained in algorithmic thinking and data structures.</div>
+              </div>
+            </div>
+
+            <div class="feature-point">
+              <i class="fa-solid fa-database"></i>
+              <div>
+                <div class="feature-point-title">Database Specialist</div>
+                <div class="feature-point-desc">Practical experience modeling 1:1, 1:N, N:M schemas, writing triggers, stored procedures, and complex queries.</div>
+              </div>
+            </div>
+
+            <div class="feature-point">
+              <i class="fa-solid fa-bolt"></i>
+              <div>
+                <div class="feature-point-title">Fast Learner &amp; Resilient</div>
+                <div class="feature-point-desc">Quick to master new frameworks, adapt to agile environments, and deliver under tight deadlines.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Spoken Languages -->
+          <div class="languages-box">
+            <div class="languages-title">
+              <i class="fa-solid fa-globe"></i> Spoken Languages
+            </div>
+            <div class="language-pills">
+              <span class="lang-pill"><strong>Arabic:</strong> Native</span>
+              <span class="lang-pill"><strong>English:</strong> Upper-Intermediate</span>
+              <span class="lang-pill"><strong>Turkish:</strong> Beginner</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Specialty: Interactive Database Engineering Lab
+       ======================================================== -->
+  <section class="section" id="database-lab" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Core Engineering Superpower</span>
+        <h2 class="section-title">Interactive Database Architecture Lab</h2>
+        <p class="section-desc">
+          Database development is my strongest area. Explore production SQL snippets, stored procedures, relational triggers, and EF Core queries written for real projects.
+        </p>
+      </div>
+
+      <!-- Database Lab Interactive Container -->
+      <div class="database-lab">
+        <!-- Top Toolbar -->
+        <div class="lab-header-tabs">
+          <div class="window-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+
+          <!-- Tab Selector Buttons -->
+          <div class="lab-tabs">
+            <button class="db-tab-btn active" data-snippet="pharos">
+              <i class="fa-solid fa-file-code"></i> Pharos Stored Proc
+            </button>
+            <button class="db-tab-btn" data-snippet="stayEase">
+              <i class="fa-solid fa-chart-line"></i> Stay Ease Aggregates
+            </button>
+            <button class="db-tab-btn" data-snippet="zucchini">
+              <i class="fa-solid fa-bolt"></i> Zucchini Restock Trigger
+            </button>
+            <button class="db-tab-btn" data-snippet="efcore">
+              <i class="fa-solid fa-server"></i> ASP.NET Core &amp; EF Core
+            </button>
+          </div>
+
+          <!-- Copy Button -->
+          <button id="copy-db-code-btn" class="btn btn-outline btn-sm">
+            <i class="fa-regular fa-copy"></i> Copy Code
+          </button>
+        </div>
+
+        <!-- Meta Bar -->
+        <div class="lab-meta-bar">
+          <div class="lab-title-group">
+            <h4 id="db-code-title">Pharos Legacy • Ticket Booking Stored Procedure</h4>
+            <p id="db-code-desc">Production-ready Stored Procedure demonstrating ACID transaction management and quota checks.</p>
+          </div>
+          <div>
+            <span class="tech-tag mono-font" id="db-code-tech">T-SQL • SQL Server</span>
+          </div>
+        </div>
+
+        <!-- Code Window Display -->
+        <div class="code-window-body">
+          <pre><code class="code-display" id="db-code-display">-- Loading SQL snippet...</code></pre>
+        </div>
+      </div>
+
+      <!-- 3 Key Database Pillars -->
+      <div class="database-skills-summary">
+        <div class="db-skill-card">
+          <div class="db-skill-card-icon">
+            <i class="fa-solid fa-sitemap"></i>
+          </div>
+          <h4>Conceptual &amp; Logical ERD</h4>
+          <p>
+            Transforming business ideas into normalized relational models. Identifying entities, defining primary &amp; composite foreign keys, and enforcing 1:1, 1:N, and N:M relationships with strict integrity rules.
+          </p>
+        </div>
+
+        <div class="db-skill-card">
+          <div class="db-skill-card-icon">
+            <i class="fa-solid fa-sliders"></i>
+          </div>
+          <h4>Advanced SQL &amp; Analytics</h4>
+          <p>
+            Proficient in complex multi-table JOINs, nested subqueries, CTEs, aggregate functions (COUNT, SUM, AVG), GROUP BY with HAVING filters, and analytical indexing for query optimization.
+          </p>
+        </div>
+
+        <div class="db-skill-card">
+          <div class="db-skill-card-icon">
+            <i class="fa-solid fa-gears"></i>
+          </div>
+          <h4>Stored Procs, Triggers &amp; Views</h4>
+          <p>
+            Automating business rules at the database engine level using ACID transactions, event-driven AFTER/INSTEAD OF triggers, parametrized stored procedures, and reusable views for secure reporting.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Skills Matrix Section
+       ======================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Technical Proficiency</span>
+        <h2 class="section-title">Skills &amp; Technology Stack</h2>
+        <p class="section-desc">
+          A balanced foundation in backend architecture, relational databases, web standards, and developer tooling.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- 1. Backend & .NET -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-blue">
+              <i class="fa-brands fa-microsoft"></i>
+            </div>
+            <h3>Backend &amp; .NET</h3>
+          </div>
+          <div class="skill-items-list">
+            <span class="skill-chip"><i class="fa-solid fa-code"></i> C#</span>
+            <span class="skill-chip"><i class="fa-solid fa-network-wired"></i> ASP.NET Core MVC</span>
+            <span class="skill-chip"><i class="fa-solid fa-database"></i> Entity Framework Core</span>
+            <span class="skill-chip"><i class="fa-solid fa-cubes"></i> OOP Principles</span>
+            <span class="skill-chip"><i class="fa-solid fa-bolt"></i> RESTful APIs</span>
+            <span class="skill-chip"><i class="fa-solid fa-arrows-rotate"></i> CRUD Operations</span>
+            <span class="skill-chip"><i class="fa-solid fa-lock"></i> Authentication &amp; Auth</span>
+            <span class="skill-chip"><i class="fa-solid fa-circle-check"></i> Model Validation</span>
+            <span class="skill-chip"><i class="fa-solid fa-shield-virus"></i> Exception Handling</span>
+            <span class="skill-chip"><i class="fa-solid fa-filter"></i> LINQ</span>
+          </div>
+        </div>
+
+        <!-- 2. Database Engineering (Specialty) -->
+        <div class="skill-category-card" style="border-color: var(--primary);">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-gold">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3>Database Engineering</h3>
+          </div>
+          <div class="skill-items-list">
+            <span class="skill-chip"><i class="fa-solid fa-server"></i> Microsoft SQL Server</span>
+            <span class="skill-chip"><i class="fa-solid fa-database"></i> MySQL</span>
+            <span class="skill-chip"><i class="fa-solid fa-table"></i> Microsoft Access</span>
+            <span class="skill-chip"><i class="fa-solid fa-diagram-project"></i> ERD Modeling</span>
+            <span class="skill-chip"><i class="fa-solid fa-shuffle"></i> 1:1, 1:N, N:M Relations</span>
+            <span class="skill-chip"><i class="fa-solid fa-layer-group"></i> 1NF, 2NF, 3NF Normalization</span>
+            <span class="skill-chip"><i class="fa-solid fa-file-code"></i> Stored Procedures</span>
+            <span class="skill-chip"><i class="fa-solid fa-bell"></i> Triggers</span>
+            <span class="skill-chip"><i class="fa-solid fa-eye"></i> Database Views</span>
+            <span class="skill-chip"><i class="fa-solid fa-magnifying-glass"></i> Complex Joins &amp; Subqueries</span>
+            <span class="skill-chip"><i class="fa-solid fa-calculator"></i> GROUP BY / HAVING</span>
+          </div>
+        </div>
+
+        <!-- 3. Frontend & Web Standards -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h3>Frontend &amp; UI</h3>
+          </div>
+          <div class="skill-items-list">
+            <span class="skill-chip"><i class="fa-brands fa-html5"></i> HTML5 Semantic Web</span>
+            <span class="skill-chip"><i class="fa-brands fa-css3-alt"></i> CSS3 &amp; Flexbox / Grid</span>
+            <span class="skill-chip"><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span class="skill-chip"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Design</span>
+            <span class="skill-chip"><i class="fa-solid fa-palette"></i> Razor Views</span>
+            <span class="skill-chip"><i class="fa-solid fa-circle-nodes"></i> DOM Manipulation</span>
+          </div>
+        </div>
+
+        <!-- 4. Developer Tools & Environments -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6;">
+              <i class="fa-solid fa-toolbox"></i>
+            </div>
+            <h3>Development Tools</h3>
+          </div>
+          <div class="skill-items-list">
+            <span class="skill-chip"><i class="fa-solid fa-code"></i> Visual Studio</span>
+            <span class="skill-chip"><i class="fa-solid fa-database"></i> SSMS (SQL Mgmt Studio)</span>
+            <span class="skill-chip"><i class="fa-brands fa-git-alt"></i> Git Version Control</span>
+            <span class="skill-chip"><i class="fa-brands fa-github"></i> GitHub Collaboration</span>
+            <span class="skill-chip"><i class="fa-solid fa-paper-plane"></i> Postman</span>
+            <span class="skill-chip"><i class="fa-solid fa-file-excel"></i> Microsoft Access Engine</span>
+          </div>
+        </div>
+
+        <!-- 5. Soft Skills & Leadership -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon icon-gold">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <h3>Soft Skills &amp; Leadership</h3>
+          </div>
+          <div class="skill-items-list">
+            <span class="skill-chip"><i class="fa-solid fa-crown"></i> Team Leadership</span>
+            <span class="skill-chip"><i class="fa-solid fa-puzzle-piece"></i> Analytical Problem Solving</span>
+            <span class="skill-chip"><i class="fa-solid fa-comments"></i> Clear Communication</span>
+            <span class="skill-chip"><i class="fa-solid fa-lightbulb"></i> Critical Thinking</span>
+            <span class="skill-chip"><i class="fa-solid fa-arrows-split-up-and-left"></i> Agile &amp; Sprint Planning</span>
+            <span class="skill-chip"><i class="fa-solid fa-stopwatch"></i> Working Under Pressure</span>
+            <span class="skill-chip"><i class="fa-solid fa-gauge-high"></i> Fast Learning</span>
+            <span class="skill-chip"><i class="fa-solid fa-bullseye"></i> Detail-Oriented</span>
+          </div>
+        </div>
+
+        <!-- 6. Problem Solving & Algorithms -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon" style="background: rgba(244, 63, 94, 0.15); color: #f43f5e;">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3>Competitive Problem Solving</h3>
+          </div>
+          <div class="skill-items-list">
+            <span class="skill-chip"><i class="fa-solid fa-trophy"></i> 2x ICPC / ECPC Contestant</span>
+            <span class="skill-chip"><i class="fa-solid fa-network-wired"></i> Graph Theory &amp; Trees</span>
+            <span class="skill-chip"><i class="fa-solid fa-arrow-down-up-across-line"></i> Sorting &amp; Searching</span>
+            <span class="skill-chip"><i class="fa-solid fa-calculator"></i> Time &amp; Space Complexity</span>
+            <span class="skill-chip"><i class="fa-solid fa-list-ol"></i> Dynamic Programming &amp; Greedy</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Featured Projects Section
+       ======================================================== -->
+  <section class="section" id="projects" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Portfolio Showcase</span>
+        <h2 class="section-title">Featured Engineering Projects</h2>
+        <p class="section-desc">
+          Real-world web applications and management systems built with ASP.NET Core MVC, SQL Server, and Microsoft Access.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="projects-filters">
+        <button class="project-filter-btn active" data-filter="all">All Projects (3)</button>
+        <button class="project-filter-btn" data-filter="aspnet">ASP.NET Core MVC</button>
+        <button class="project-filter-btn" data-filter="sql">SQL &amp; Database</button>
+        <button class="project-filter-btn" data-filter="lead">Team Leader Role</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid">
+
+        <!-- Project 1: Pharos Legacy -->
+        <div class="project-card" data-category="aspnet sql lead">
+          <div class="project-image-box">
+            <img src="assets/images/pharos-hero.jpg" alt="Pharos Legacy Tourism Booking Platform" class="project-img">
+            <span class="project-badge-overlay"><i class="fa-solid fa-crown"></i> Team Leader</span>
+            <span class="gallery-count-badge"><i class="fa-solid fa-images"></i> 5 Screenshots</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Pharos Legacy</h3>
+            <div class="project-subtitle">Egyptian Heritage &amp; Tourism Ticket Booking System</div>
+            <p class="project-desc">
+              Web application designed to promote Egyptian tourism. Tourists can discover temples, museums, pharaohs, and historical timelines, bookmark favorites, and book or cancel tickets with instant quota validation. Includes a robust admin telemetry dashboard with visitor and revenue metrics.
+            </p>
+            <div class="project-tags">
+              <span class="tech-tag">ASP.NET Core MVC</span>
+              <span class="tech-tag">C#</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">EF Core</span>
+              <span class="tech-tag">Authentication</span>
+            </div>
+            <div class="project-card-footer">
+              <span class="role-summary"><i class="fa-solid fa-user-check"></i> Dina's Role: Backend &amp; DB Architect</span>
+              <button class="btn btn-outline btn-sm view-project-btn" data-project-id="pharos-legacy">
+                Explore Details &amp; Gallery <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Stay Ease -->
+        <div class="project-card" data-category="aspnet sql lead">
+          <div class="project-image-box">
+            <img src="assets/images/stay-ease-hero.jpg" alt="Stay Ease Hotel Management System" class="project-img">
+            <span class="project-badge-overlay"><i class="fa-solid fa-crown"></i> Team Leader</span>
+            <span class="gallery-count-badge"><i class="fa-solid fa-images"></i> 4 Screenshots</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Stay Ease</h3>
+            <div class="project-subtitle">Hotel Management &amp; Multi-Payment Reservation System</div>
+            <p class="project-desc">
+              Comprehensive hotel reservation platform allowing users to search and filter accommodations by city, budget, and star rating. Features interactive date reservation, room categorization, customer reviews, and simulated online checkout via PayPal, InstaPay, VCash, or cash-on-arrival.
+            </p>
+            <div class="project-tags">
+              <span class="tech-tag">ASP.NET Core MVC</span>
+              <span class="tech-tag">C#</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">Payment Simulation</span>
+              <span class="tech-tag">ERD Design</span>
+            </div>
+            <div class="project-card-footer">
+              <span class="role-summary"><i class="fa-solid fa-user-check"></i> Dina's Role: Team Leader &amp; Backend</span>
+              <button class="btn btn-outline btn-sm view-project-btn" data-project-id="stay-ease">
+                Explore Details &amp; Gallery <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Zucchini Store -->
+        <div class="project-card" data-category="sql lead">
+          <div class="project-image-box">
+            <img src="assets/images/zucchini-store.svg" alt="Zucchini Store Management System" class="project-img">
+            <span class="project-badge-overlay"><i class="fa-solid fa-crown"></i> Team Leader</span>
+            <span class="gallery-count-badge"><i class="fa-solid fa-images"></i> 1 Diagram</span>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Zucchini Store</h3>
+            <div class="project-subtitle">Apparel Store &amp; Automated Inventory Management System</div>
+            <p class="project-desc">
+              Retail management system tailored for clothing lines across Women, Men, and Children departments. Integrates relational product catalogues, real-time stock quantity auditing, automatic low-stock restock alerts, supplier management, and executive inventory reports.
+            </p>
+            <div class="project-tags">
+              <span class="tech-tag">Microsoft Access</span>
+              <span class="tech-tag">Relational SQL</span>
+              <span class="tech-tag">Database Normalization</span>
+              <span class="tech-tag">UI Design</span>
+            </div>
+            <div class="project-card-footer">
+              <span class="role-summary"><i class="fa-solid fa-user-check"></i> Dina's Role: DB Design &amp; UI Forms</span>
+              <button class="btn btn-outline btn-sm view-project-btn" data-project-id="zucchini-store">
+                Explore Details &amp; Architecture <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Experience & Education Timeline Section
+       ======================================================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Career &amp; Learning Journey</span>
+        <h2 class="section-title">Experience &amp; Education</h2>
+        <p class="section-desc">
+          Professional training initiatives, academic excellence at Assiut University, and milestones along my software development journey.
+        </p>
+      </div>
+
+      <div class="timeline-section-grid">
+        <!-- Column 1: Work & Training Experience -->
+        <div>
+          <h3 class="timeline-column-title">
+            <i class="fa-solid fa-briefcase" style="color: var(--primary);"></i> Work &amp; Training Experience
+          </h3>
+          <div class="timeline">
+            
+            <!-- Item 1: DEPI -->
+            <div class="timeline-card">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card-header">
+                <h4 class="timeline-card-title">Full Stack .NET Developer Trainee</h4>
+                <span class="timeline-card-date">Jul 2026 – Dec 2026</span>
+              </div>
+              <div class="timeline-card-org">DEPI (Digital Egypt Pioneers Initiative) &bull; Asyut, Egypt</div>
+              <ul class="timeline-card-bullets">
+                <li>Built 3+ full-stack web applications utilizing C#, ASP.NET Core MVC, SQL Server, and EF Core.</li>
+                <li>Architected and delivered Pharos Legacy (Tourism portal) and Stay Ease (Hotel management system).</li>
+                <li>Conceptualized a secure Facial Recognition Payment System architecture.</li>
+                <li>Designed normalized relational databases, implemented RESTful APIs, and practiced Agile methodologies.</li>
+              </ul>
+            </div>
+
+            <!-- Item 2: ITI -->
+            <div class="timeline-card">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card-header">
+                <h4 class="timeline-card-title">Backend Developer</h4>
+                <span class="timeline-card-date">Sep 2025 – Jan 2026</span>
+              </div>
+              <div class="timeline-card-org">ITI (Information Technology Institute) &bull; Asyut, Egypt</div>
+              <ul class="timeline-card-bullets">
+                <li>Deep-dive into backend architecture using C#, ASP.NET Core, and Entity Framework Core.</li>
+                <li>Engineered high-performance SQL Server database objects: stored procedures, triggers, views, and complex joins.</li>
+                <li>Collaborated on backend service integration and secure role-based authentication workflows.</li>
+              </ul>
+            </div>
+
+            <!-- Item 3: University Projects & Team Leadership -->
+            <div class="timeline-card">
+              <span class="timeline-dot"></span>
+              <div class="timeline-card-header">
+                <h4 class="timeline-card-title">Project Team Leader &amp; Architect</h4>
+                <span class="timeline-card-date">2023 – Present</span>
+              </div>
+              <div class="timeline-card-org">Faculty of Computer and Information Science &bull; Assiut University</div>
+              <ul class="timeline-card-bullets">
+                <li>Served as Team Leader across 3 major university software engineering projects.</li>
+                <li>Managed task distribution, Git version control, technical problem resolution, and final milestone presentations.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Column 2: Education & Origins -->
+        <div>
+          <h3 class="timeline-column-title">
+            <i class="fa-solid fa-graduation-cap" style="color: var(--accent-gold);"></i> Education &amp; Foundation
+          </h3>
+          <div class="timeline">
+            
+            <!-- Item 1: Assiut University -->
+            <div class="timeline-card">
+              <span class="timeline-dot" style="background: var(--accent-gold); box-shadow: 0 0 0 2px var(--accent-gold);"></span>
+              <div class="timeline-card-header">
+                <h4 class="timeline-card-title">Bachelor of Computer &amp; Information Science</h4>
+                <span class="timeline-card-date">Oct 2023 – Expected Jul 2027</span>
+              </div>
+              <div class="timeline-card-org">
+                Assiut University &bull; Information Systems Department<br>
+                <strong style="color: var(--accent-gold); font-size: 13px;">Current GPA: 3.89 / 4.00 (Standing: Excellent)</strong>
+              </div>
+              <ul class="timeline-card-bullets">
+                <li>Currently in 4th Year, 1st Semester.</li>
+                <li>Coursework: Database Management Systems, Advanced Web Programming, Software Engineering, Object-Oriented Analysis &amp; Design (OOAD), Data Structures, Algorithms, Operating Systems.</li>
+                <li>Consistently achieved top-tier academic rankings and served as team leader in coursework projects.</li>
+              </ul>
+            </div>
+
+            <!-- Item 2: Self-Taught Programming Journey -->
+            <div class="timeline-card">
+              <span class="timeline-dot" style="background: var(--accent-gold); box-shadow: 0 0 0 2px var(--accent-gold);"></span>
+              <div class="timeline-card-header">
+                <h4 class="timeline-card-title">High School Coding Awakening</h4>
+                <span class="timeline-card-date">High School</span>
+              </div>
+              <div class="timeline-card-org">Self-Directed Learning</div>
+              <ul class="timeline-card-bullets">
+                <li>Began my programming journey by learning HTML and exploring frontend web structure.</li>
+                <li>Transitioned into algorithmic problem-solving and programming fundamentals, sparking my passion for backend software development.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Competitive Programming & ICPC Section
+       ======================================================== -->
+  <section class="section" id="icpc" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="icpc-showcase-box">
+        <div class="icpc-grid">
+          <div>
+            <span class="status-pill" style="background: var(--accent-gold-bg); color: var(--accent-gold); border-color: var(--accent-gold);">
+              <i class="fa-solid fa-trophy"></i> Competitive Programming
+            </span>
+            <h2 class="section-title" style="margin-top: 12px;">ICPC / ECPC Qualification Finalist</h2>
+            <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.7; margin-bottom: 18px;">
+              Problem-solving is one of my core strengths. I have actively competed in the prestigious <strong>Egyptian Collegiate Programming Contest (ECPC / ICPC)</strong> qualification rounds in both <strong>2025</strong> and <strong>2026</strong>. Competitive programming has honed my ability to analyze edge cases, optimize algorithmic complexity, and excel under strict time pressure.
+            </p>
+
+            <div class="icpc-cards-wrapper">
+              <!-- 2026 Contest Card -->
+              <div class="icpc-badge-card">
+                <div class="icpc-badge-header">
+                  <span class="icpc-year">ECPC / ICPC 2026</span>
+                  <span class="icpc-status"><i class="fa-solid fa-check"></i> Qualified</span>
+                </div>
+                <div class="icpc-team">Team: <strong>Forced</strong> &bull; Assiut University</div>
+                <div class="icpc-rank">Contest Standing: <strong>131st Place</strong></div>
+                <div style="font-size: 11.5px; color: var(--text-muted); margin: 6px 0 10px;">Day 8 &bull; 20 August 2026</div>
+                <div class="cert-thumb-box" style="margin-bottom: 10px; border-radius: 6px; overflow: hidden; border: 1px solid var(--border-color);">
+                  <a href="assets/docs/icpc-2026-certificate.pdf" target="_blank" title="View Official 2026 Certificate">
+                    <img src="assets/images/icpc-2026-certificate.jpg" alt="ICPC ECPC 2026 Certificate of Achievement - Dina Salah" style="width: 100%; height: 110px; object-fit: cover; display: block; transition: transform 0.3s ease;">
+                  </a>
+                </div>
+                <a href="assets/docs/icpc-2026-certificate.pdf" target="_blank" class="btn btn-outline btn-sm" style="width: 100%;">
+                  <i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i> View 2026 Certificate
+                </a>
+              </div>
+
+              <!-- 2025 Contest Card -->
+              <div class="icpc-badge-card">
+                <div class="icpc-badge-header">
+                  <span class="icpc-year">ECPC / ICPC 2025</span>
+                  <span class="icpc-status"><i class="fa-solid fa-check"></i> Qualified</span>
+                </div>
+                <div class="icpc-team">Team: <strong>Prime Coders</strong> &bull; Assiut University</div>
+                <div class="icpc-rank">Contest Standing: <strong>112th Place</strong></div>
+                <div style="font-size: 11.5px; color: var(--text-muted); margin: 6px 0 10px;">Day 8 &bull; 07 August 2025</div>
+                <div class="cert-thumb-box" style="margin-bottom: 10px; border-radius: 6px; overflow: hidden; border: 1px solid var(--border-color);">
+                  <a href="assets/docs/icpc-2025-certificate.pdf" target="_blank" title="View Official 2025 Certificate">
+                    <img src="assets/images/icpc-2025-certificate.jpg" alt="ICPC ECPC 2025 Certificate of Achievement - Dina Salah" style="width: 100%; height: 110px; object-fit: cover; display: block; transition: transform 0.3s ease;">
+                  </a>
+                </div>
+                <a href="assets/docs/icpc-2025-certificate.pdf" target="_blank" class="btn btn-outline btn-sm" style="width: 100%;">
+                  <i class="fa-solid fa-file-pdf" style="color: #ef4444;"></i> View 2025 Certificate
+                </a>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Leadership & Collaboration Spotlight
+       ======================================================== -->
+  <section class="section" id="leadership">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Team Leadership</span>
+        <h2 class="section-title">Leadership &amp; Cross-Functional Teamwork</h2>
+        <p class="section-desc">
+          Leading university project teams across Pharos Legacy, Stay Ease, and Zucchini Store has developed my collaborative problem-solving and management abilities.
+        </p>
+      </div>
+
+      <div class="leadership-grid">
+        <div class="lead-card">
+          <div class="lead-icon">
+            <i class="fa-solid fa-list-check"></i>
+          </div>
+          <h4>Task Division &amp; Roadmap</h4>
+          <p>Deconstructing complex software requirements into manageable milestones and delegating tasks according to each team member's strengths.</p>
+        </div>
+
+        <div class="lead-card">
+          <div class="lead-icon">
+            <i class="fa-solid fa-code-merge"></i>
+          </div>
+          <h4>Integration &amp; Git Merging</h4>
+          <p>Reviewing pull requests, ensuring clean branch management, resolving merge conflicts, and aligning backend endpoints with frontend views.</p>
+        </div>
+
+        <div class="lead-card">
+          <div class="lead-icon">
+            <i class="fa-solid fa-wrench"></i>
+          </div>
+          <h4>Technical Troubleshooting</h4>
+          <p>Serving as the technical escalation point for debugging database deadlocks, controller errors, and ORM mapping issues.</p>
+        </div>
+
+        <div class="lead-card">
+          <div class="lead-icon">
+            <i class="fa-solid fa-person-chalkboard"></i>
+          </div>
+          <h4>Presentation &amp; Pitching</h4>
+          <p>Preparing project documentation, architectural diagrams, and delivering confident technical presentations to professors and stakeholders.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Contact & Hire Me Section
+       ======================================================== -->
+  <section class="section" id="contact" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pretitle">Get In Touch</span>
+        <h2 class="section-title">Let's Build Scalable Systems Together</h2>
+        <p class="section-desc">
+          Seeking opportunities as a <strong>Full Stack .NET Developer</strong> or <strong>Backend .NET Developer</strong>. Have an opportunity or question? Reach out!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Cards -->
+        <div class="contact-info-cards">
+          
+          <!-- Email Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div style="flex-grow: 1;">
+              <div class="contact-card-title">Email Address</div>
+              <div class="contact-card-val">
+                <a href="mailto:dinasalah15122005@gmail.com">dinasalah15122005@gmail.com</a>
+              </div>
+            </div>
+            <button class="btn btn-outline btn-sm copy-email-btn" data-email="dinasalah15122005@gmail.com" title="Copy Email">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+              <div class="contact-card-title">Phone &bull; WhatsApp</div>
+              <div class="contact-card-val">
+                <a href="tel:01090006735">+20 010 9000 6735</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Location Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <div class="contact-card-title">Location</div>
+              <div class="contact-card-val">Assiut, Egypt (Open to Remote &amp; Relocation)</div>
+            </div>
+          </div>
+
+          <!-- Professional Profiles Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div style="flex-grow: 1;">
+              <div class="contact-card-title">Online Profiles</div>
+              <div style="display: flex; gap: 10px; margin-top: 6px; flex-wrap: wrap;">
+                <a href="https://linkedin.com/in/dina-salah-aldin" target="_blank" class="tech-tag" style="color: #0284c7;">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/dinasalah15122005" target="_blank" class="tech-tag">
+                  <i class="fa-brands fa-github"></i> GitHub
+                </a>
+                <a href="https://www.upwork.com/freelancers/~01e3f9d423b314b81b" target="_blank" class="tech-tag" style="color: #10b981;">
+                  <i class="fa-brands fa-upwork"></i> Upwork
+                </a>
+                <a href="https://khamsat.com/user/dina_salah_aldin" target="_blank" class="tech-tag" style="color: #f59e0b;">
+                  <i class="fa-solid fa-briefcase"></i> Khamsat
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CV Download Banner -->
+          <div style="background: var(--bg-card); border: 1px dashed var(--primary); padding: 18px 22px; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: space-between;">
+            <div>
+              <div style="font-size: 14px; font-weight: 700; color: var(--text-main);">Looking for a printable CV?</div>
+              <div style="font-size: 12px; color: var(--text-muted);">Formatted, ATS-ready, and verified for download.</div>
+            </div>
+            <a href="cv.html" target="_blank" class="btn btn-primary btn-sm">
+              <i class="fa-solid fa-file-pdf"></i> View CV
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Interactive Direct Message Form -->
+        <div class="contact-form-box">
+          <h3 style="font-size: 20px; margin-bottom: 6px;">Send a Direct Message</h3>
+          <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 20px;">
+            Fill out the form below to initiate an email directly with Dina.
+          </p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="contact-name" class="form-label">Your Name *</label>
+              <input type="text" id="contact-name" class="form-input" placeholder="e.g. John Doe / Tech Recruiter" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email" class="form-label">Your Email *</label>
+              <input type="email" id="contact-email" class="form-input" placeholder="e.g. recruiter@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-subject" class="form-label">Subject</label>
+              <input type="text" id="contact-subject" class="form-input" placeholder="e.g. .NET Developer Opportunity">
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message" class="form-label">Your Message *</label>
+              <textarea id="contact-message" class="form-textarea" placeholder="Describe the role or project you'd like to collaborate on..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-regular fa-paper-plane"></i> Send Message to Dina
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       Footer
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-text">
+        &copy; 2026 <strong>Dina Salah Aldin Saber</strong> &bull; Full Stack .NET Developer &bull; Assiut, Egypt
+      </div>
+      
+      <div style="display: flex; gap: 16px; align-items: center;">
+        <a href="#home" style="font-size: 13px; color: var(--text-muted);">Back to Top</a>
+        <span style="color: var(--border-color);">&bull;</span>
+        <a href="cv.html" target="_blank" style="font-size: 13px; color: var(--primary);">Curriculum Vitae</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ========================================================
+       Project Deep-Dive Modal
+       ======================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Project Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Injected via JavaScript from projects-data.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification" class="toast-notification" role="status" aria-live="polite"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/projects-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

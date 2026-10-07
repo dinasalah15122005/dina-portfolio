@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hotelBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091e3a"/>
+      <stop offset="60%" stop-color="#0f2b48"/>
+      <stop offset="100%" stop-color="#0a1526"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#hotelBg)"/>
+
+  <!-- Top Search & Filter Bar -->
+  <rect x="30" y="20" width="740" height="56" rx="12" fill="rgba(15,23,42,0.85)" stroke="rgba(59,130,246,0.3)" stroke-width="1.2"/>
+  <text x="50" y="53" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">STAY EASE</text>
+  
+  <!-- Search input pills -->
+  <rect x="170" y="30" width="130" height="34" rx="6" fill="#1e293b"/>
+  <text x="182" y="52" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">City: Cairo / Luxor</text>
+  
+  <rect x="310" y="30" width="125" height="34" rx="6" fill="#1e293b"/>
+  <text x="322" y="52" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Dates: Oct 15 - 20</text>
+  
+  <rect x="445" y="30" width="120" height="34" rx="6" fill="#1e293b"/>
+  <text x="457" y="52" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11">&#x2605; 5 Stars Hotel</text>
+
+  <rect x="580" y="30" width="80" height="34" rx="6" fill="#1e293b"/>
+  <text x="592" y="52" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Max $250</text>
+
+  <rect x="670" y="30" width="85" height="34" rx="6" fill="url(#blueGrad)"/>
+  <text x="692" y="52" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">Search</text>
+
+  <!-- Left Card: Selected Hotel & Room Booking -->
+  <rect x="30" y="95" width="460" height="325" rx="14" fill="rgba(15,23,42,0.75)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  
+  <!-- Hotel Image / Mock Graphic -->
+  <rect x="45" y="110" width="430" height="120" rx="8" fill="#1e293b"/>
+  <rect x="55" y="120" width="130" height="100" rx="6" fill="#0f172a" stroke="#334155"/>
+  <text x="90" y="175" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="28">&#x1F3E8;</text>
+  <text x="200" y="145" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="17" font-weight="bold">The Nile Grand Palace Hotel</text>
+  <text x="200" y="168" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="13">&#x2605;&#x2605;&#x2605;&#x2605;&#x2605; (4.8 / 5.0 &#x2022; 320 reviews)</text>
+  <text x="200" y="190" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Corniche El Nile, Downtown Cairo</text>
+  <text x="200" y="210" fill="#34d399" font-family="system-ui, sans-serif" font-size="12">&#x2713; Free Cancellation &#x2022; Pool &#x2022; Wi-Fi</text>
+
+  <!-- Room selection section -->
+  <rect x="45" y="242" width="430" height="65" rx="8" fill="rgba(30,41,59,0.5)" stroke="rgba(255,255,255,0.05)"/>
+  <text x="60" y="267" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Executive Deluxe Suite (King Bed)</text>
+  <text x="60" y="290" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">2 Adults &#x2022; River View &#x2022; Breakfast Included</text>
+  <text x="315" y="272" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">$160 / night</text>
+  <rect x="315" y="280" width="145" height="22" rx="4" fill="url(#tealGrad)"/>
+  <text x="330" y="295" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Reserve Selected</text>
+
+  <!-- Payment Channels Simulation -->
+  <rect x="45" y="320" width="430" height="85" rx="8" fill="rgba(30,41,59,0.7)"/>
+  <text x="60" y="342" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">SIMULATED PAYMENT GATEWAYS (Integrated by Dina):</text>
+  
+  <rect x="60" y="352" width="85" height="38" rx="6" fill="#003087"/>
+  <text x="80" y="375" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">PayPal</text>
+  
+  <rect x="155" y="352" width="90" height="38" rx="6" fill="#4c1d95"/>
+  <text x="172" y="375" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">InstaPay</text>
+
+  <rect x="255" y="352" width="85" height="38" rx="6" fill="#065f46"/>
+  <text x="277" y="375" fill="#6ee7b7" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">VCash</text>
+
+  <rect x="350" y="352" width="110" height="38" rx="6" fill="#334155"/>
+  <text x="362" y="375" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Cash at Hotel</text>
+
+  <!-- Right Side: Architecture & Dina's Lead Role -->
+  <rect x="510" y="95" width="260" height="325" rx="14" fill="rgba(15,23,42,0.75)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="530" y="125" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">System Architecture</text>
+  <line x1="530" y1="138" x2="750" y2="138" stroke="rgba(255,255,255,0.1)"/>
+
+  <text x="530" y="165" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x2713; Relational ERD Design</text>
+  <text x="545" y="183" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Hotels &#x2194; Rooms &#x2194; Bookings (1:N)</text>
+  <text x="545" y="199" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Guests &#x2194; Reviews (N:M)</text>
+
+  <text x="530" y="230" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x2713; ASP.NET Core MVC Backend</text>
+  <text x="545" y="248" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Authentication &amp; User Sessions</text>
+  <text x="545" y="264" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Dynamic Filtering &amp; Search API</text>
+
+  <text x="530" y="295" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x2713; Admin Back-Office Module</text>
+  <text x="545" y="313" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Room availability, rates &amp; orders</text>
+
+  <rect x="525" y="335" width="230" height="70" rx="8" fill="rgba(59,130,246,0.1)" stroke="#3b82f6" stroke-width="0.8"/>
+  <text x="538" y="357" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">&#x2605; Team Leader Responsibilities</text>
+  <text x="538" y="375" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">Task distribution, daily follow-up,</text>
+  <text x="538" y="392" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="11">code integration &amp; presentation.</text>
+</svg>
